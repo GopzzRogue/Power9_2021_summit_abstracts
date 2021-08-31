@@ -1,0 +1,12 @@
+______  Health Chatbots - As good as a real Doctor?  _______
+__Health chatbots are the future replacement for doctors. With an extensive AI, healthbots which function almost as good as doctors can be made.
+__Health chatbots consist of two major parts- the core(the working part) and the interface(the chatbot)
+__The interface is quite common and is fundamentally, almost exactly the same for all chatbots ie it takes the symptoms from the patient as input and gives it to the core, and takes the predictions from the core and gives it to the patient.
+In other words, it communicates with the patient, just like the peripherals of a system.
+__The core is what determines the effectiveness and the mode of working of the healthbot. This is where the difference lies. It can make the healthbot the best or the worst.
+__Usually, the core is run on a single system with a very good performance benchmark and the chatbots are distributed in the market. These chatbots are (obviously) connected to the same core.
+__Basically, what the core does is, it predicts various diseases based on the datasets we provide. The best method for a healthbot core training with neural networks which is gonna take a huge amount of resources, as well as a vast collection of good datasets.
+__The biggest challenge faced while designing a healthbot is the lack of availability of good datasets.
+__As a result, while creating the first basic prototype, I had to stick to a crude naive Bayes classifier(yes, I was classifying the symptoms provided among a given list of diseases), built on a lot of completely irrational assumptions(like, the occurence of any  2 diseases are totally independent of each other).
+The only datasets available were the probability values of a few selected diseases given a few selected symptoms. So, I had to make do with that, by considering probabilities of occurences of the individual diseases and symptoms to be empirical values.
+__However, if we are able to obtain a considerable number of datasets, containing a better variety of features (like age, family medical history etc.), we might be able to train a model which can perform the job of a doctor much more efficiently.
