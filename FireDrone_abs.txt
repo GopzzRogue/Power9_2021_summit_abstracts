@@ -1,3 +1,8 @@
 _______  Forest Fires??  Drone it Out!!  _________
 __Recently, with the stuff going on in the Amazon and Australia, well, it is pretty clear that forest fires are naturals calamities which are becoming more common in time.
-__
+__So, we need a monitoring system. Obviously, satellites do the job, but as someone said, prevention is better than cure. So, it is better if you are able to obtain indications of th eforest fire, way before it spreads andd becomes massive enough to be detected by satellites.
+__Hence, we need a ground level monitoring system. Of course, we can divide the entire forest area into smaller areas(grids) and keep stationary detection modules to cover each area. But then it would require a huge amount of detection modules and the the wallet of the person funding the entire operation would suffer(very badly).
+__So, what can we do to increase cost effectiveness? Increase the size of each sub-area. And, how can we do that? Drones!
+__Drones are becoming increasingly common, so the cost problem has been hit outta the park.
+__As for how the drone works, we are planning to start off with a basic CV model along with the data obtained from  a few peripherals like smoke detector and thermometer.
+__The camera on the drone takes snaps of thes forests and pass it to the cv model, which determines, whether or not the forest is on fire.
